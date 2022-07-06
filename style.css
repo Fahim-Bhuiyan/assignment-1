@@ -1,0 +1,196 @@
+body{
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+h1{
+    font-weight: 800;
+    font-size: 48px;
+}
+h2{
+    text-align: center;
+    font-size: 36px;
+    font-weight: 700;
+}
+.paragraph{
+    margin-bottom: 26px;
+}
+.container {
+    position: relative;
+    text-align: center;
+    color: white;
+    
+  }
+  .container img{
+    width: 100%;
+    background-image: linear-gradient(black ,rgb(231, 211, 211));
+  }
+  .text-on-image {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .span-colour{
+    color: orange;
+  }
+  .donate-button{
+    text-decoration: none;
+    background-image:linear-gradient(rgb(248, 101, 125), rgb(218, 68, 68));
+    color: aliceblue;
+    font-weight: 700;
+    padding: 8px 30px;
+    border-radius: 5px;
+    
+    
+}
+.donate-para{
+    text-align: center;
+    color: rgb(76, 84, 87);
+}
+.donate-here{
+    margin-right: 23%;
+    margin-left: 23%;
+    margin-bottom: 100px;
+}
+.btn{
+    text-decoration: none;
+    padding: 33px 20px;
+    border: none;
+    border-radius: 4px;
+    font-weight: 700;
+    font-size: 22px;
+    color: rgb(80, 77, 71);
+    margin: 3px;
+    margin-bottom: 25px;
+    background-color: whitesmoke;
+    display: inline block;
+    text-align: center;
+}
+.colour-button{
+    background-color: rgb(245, 216, 221);
+    border: 2px solid rgb(249, 145, 162);
+    color: rgb(249, 145, 162);
+    
+}
+.first-button{
+    margin-left: 36PX;
+}
+.placing{
+    display: block;
+    height: 12px;
+    width: 100%;
+    color: rgb(77, 104, 128);
+    padding: 0 12px;
+    font-weight: 300;
+    border: none;  
+}
+::placeholder{
+    text-decoration-color: black;
+    text-align: center;
+}
+.second-button{
+    
+        text-decoration: none;
+        background-image:linear-gradient(rgb(248, 101, 125), rgb(218, 68, 68));
+        color: aliceblue;
+        font-weight: 700;
+        padding: 8px 30px;
+        border-radius: 5px;
+        margin-left: 300px;
+        margin-top: 18px;
+        display: inline-block;
+
+}
+.plan-para{
+    text-align: center;
+    margin: 0 300px;
+}
+
+.donate-plan{
+    margin-left: 30px;
+    margin-right: 70px;
+}
+.icon-part{
+    width: 280px;
+    padding: 10px 14px;
+    border-radius: 2px;
+    display: inline-block;
+    margin:10px;
+    
+
+}
+.clr-para{
+    color: rgb(76, 84, 87);
+    text-align: left;
+}
+.plan{
+    margin-left: 100px ;
+}
+#clr-green{
+    background-color: rgb(236, 247, 218);
+}
+#clr-red{
+    background-color: rgb(250, 220, 220);
+}
+#clr-blue{
+    background-color: rgb(231, 231, 254);
+}
+.flexible-container{
+    display: flex;
+    margin: 30px;
+}
+.text-part{
+    width: 50%;
+    margin-left: 110px;
+    margin-right: 80px;
+}
+.textt-part img{
+    margin: 20px;
+    max-width: 400px;
+    max-height: 600px;
+}
+.last-para{
+    color: rgb(76, 84, 87); 
+    
+}
+.donate-button{
+    text-decoration: none;
+    background-image:linear-gradient(rgb(248, 101, 125), rgb(218, 68, 68));
+    color: aliceblue;
+    font-weight: 700;
+    padding: 8px 30px;
+    border-radius: 5px;
+    margin-left: 150px;
+    margin-top: 70px;
+    
+}
+.update-part{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 5% 20%;
+}
+.email-input{
+    border: none;
+    background-color: rgb(216, 221, 225);
+    padding:4px 20px;
+}
+.subscribe-btn{
+    border: none;
+    background-color: rgb(197, 129, 47);
+    padding:4px 6px;
+}
+.update-part{
+    background-color: rgb(234, 191, 125);
+    padding-top: 50px;
+    padding-bottom: 50px;
+    
+}
+footer{
+    background-color: rgb(10, 10, 10);
+    text-align: center;
+    padding:8px ;
+    font-weight: 400;
+    color: aliceblue;
+}
